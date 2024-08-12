@@ -1,0 +1,36 @@
+# Core dependencies
+streamlit==1.22.0
+boto3==1.26.90
+pandas==1.5.3
+plotly==5.13.1
+requests==2.28.2
+
+# AWS related
+botocore==1.29.90
+
+# Data manipulation and analysis
+numpy==1.24.2
+
+# Date and time manipulation
+python-dateutil==2.8.2
+
+# For environment variables
+python-dotenv==1.0.0
+
+# Optional: for more advanced data processing
+# scipy==1.10.1
+
+# Optional: for additional plotting capabilities
+# matplotlib==3.7.1
+
+# Optional: for interactive widgets in Streamlit
+# streamlit-echarts==0.4.0
+
+# Optional: for handling Excel files if needed
+# openpyxl==3.1.2
+
+# Optional: for more efficient data structures
+# pyarrow==11.0.0
+
+# Optional: for progress bars in data processing
+# tqdm==4.65.0
