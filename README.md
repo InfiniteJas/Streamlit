@@ -45,19 +45,11 @@
 
 ## Настройка
 
-1. Создайте файл `.env` в корневой директории проекта и добавьте следующие переменные окружения:
-   ```
-   AWS_ACCESS_KEY_ID=ваш_ключ_доступа
-   AWS_SECRET_ACCESS_KEY=ваш_секретный_ключ
-   S3_BUCKET=имя_вашего_бакета
-   API_ENDPOINT=адрес_вашего_api_эндпоинта
-   ```
-
-2. Настройте параметры S3 и API в файле `config.py`:
+1. Настройте параметры S3 и API в файле `config.py`:
    ```python
-   S3_BUCKET = "ваш_бакет"
-   S3_PREFIX = "chat-logs/"
-   API_ENDPOINT = "https://ваш.api.endpoint"
+   S3_BUCKET = "S3 bucket uri"
+   S3_PREFIX = "prefix/"
+   API_ENDPOINT = "https://api.endpoint"
    ```
 
 ## Использование
