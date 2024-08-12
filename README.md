@@ -47,9 +47,9 @@
 
 1. Настройте параметры S3 и API в файле `config.py`:
    ```python
-   S3_BUCKET = "S3 bucket uri"
-   S3_PREFIX = "prefix/"
-   API_ENDPOINT = "https://api.endpoint"
+   S3_BUCKET = "S3_BUCKET_URI"
+   S3_PREFIX = "PREFIX/"
+   API_ENDPOINT = "API_ENDPOINT"
    ```
 
 ## Использование
